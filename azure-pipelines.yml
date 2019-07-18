@@ -1,4 +1,4 @@
-# Using hhttps://github.com/TomSunGit/azure-pipelines-template
+# Using https://github.com/tox-dev/azure-pipelines-template
 # and learned from https://github.com/wasp/waspy/blob/master/azure-pipelines.yml
 
 name: $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.rr)
@@ -7,7 +7,7 @@ resources:
   - repository: tox
     type: github
     endpoint: github
-    name: TomSunGit/azure-pipelines-template
+    name: tox-dev/azure-pipelines-template
     ref: refs/tags/0.2
 
 trigger:
